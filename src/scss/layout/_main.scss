@@ -42,3 +42,17 @@ main {
     margin-top: 9px;
     padding-bottom: 9px;
 }
+
+.hero-cta {
+    padding-top: 20px;
+
+    @media (min-width: 641px) {
+        padding-top: 30px;
+    }
+}
+
+.email {
+    @media (min-width: 641px) {
+        width: 400px;
+    }
+}
