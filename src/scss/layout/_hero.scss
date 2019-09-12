@@ -5,7 +5,17 @@
 }
 
 .hero-paragraph {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
 }
 
 .hero-media {
@@ -40,13 +50,23 @@
     }
 
     .hero-paragraph {
-        margin-bottom: 40px;
         padding-left: 72px;
         padding-right: 72px;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      input {
+        margin-right: 8px;
+      }
     }
 
     .hero-media {
         margin-top: 64px;
         height: 400px;
+        padding: 20px;
     }
 }
